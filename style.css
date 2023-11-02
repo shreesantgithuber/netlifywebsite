@@ -1,0 +1,260 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.container{
+	height:100vh;
+	width:100vw;
+}
+
+.logo h1{
+	font-size:2vw;
+	padding-top:1.5vw;
+	padding-left:2vw;
+	font-family:sans-serif;
+}
+
+nav{
+	width:100vw;
+	height:10vh;
+	display:flex;
+	/* background:#c89fcc; */
+}
+
+.logo{
+	width:30vw;
+}
+
+.menu{
+	width:70vw;
+}
+
+.menu ul{
+	display:flex;
+}
+
+.menu ul li{
+	list-style:none;
+	padding:2vw 4vw 0vw 4vw;
+	font-size:1.5vw;
+	font-family:sans-serif;
+	color:#7b288a;
+	font-weight:bold;
+}
+
+.content{
+	/* height:18vh; */
+	/* width:35vw; */
+	display:flex;
+	position:absolute;
+	top:250px;
+	left:80px;
+}
+
+.about h2{
+	font-size:2.5vw;
+	font-family:sans-serif;
+}
+
+.about p{
+	font-size:1.5vw;
+	font-family:sans-serif;
+}
+
+.about h2 span{
+	margin-left:4vw;
+}
+
+
+.about h2 span::after{
+	content:"";
+	height:40%;
+	width:30%;
+	position:absolute;
+	background:white;
+	border-left:2px solid black;
+	animation-name:cover;
+	animation-duration:3s;
+	animation-delay:0.5s;
+	animation-iteration-count:infinite;
+	animation-timing-function:ease-in;
+}
+
+@keyframes cover{
+	100%{
+		right:0px;
+	}
+}
+
+img{
+	position:absolute;
+	top:100px;
+	left:600px;
+}
+
+#btn{
+	padding:1vw 2vw 1vw 2vw;
+	border:2px solid white;
+	border-radius:1vw;
+	background:pink;
+	font-size:1.5vw;
+}
+
+.para{
+	margin-top:4vw;
+}
+
+.css{ 
+	/* display:none;  */
+	margin-left:3vw;
+ } 
+ 
+ .css h1{
+	 text-align:center;
+	 font-family:sans-serif;
+	 margin-top:2vw;
+	 margin-bottom:2vw;
+ }
+ 
+a{
+	text-decoration:none;
+}
+
+.htmls h1{
+	text-align:center;
+	font-family:sans-serif;
+}
+
+.htmls p{
+	font-size:1.5vw;
+	font-family:sans-serif;
+	letter-spacing:0.1vw;
+}
+
+.htmls{
+   width:70vw;
+   position:absolute;
+   left:180px;
+   top:100px;
+   /* display:none; */
+}
+
+xmp{
+	font-size:1.5vw;
+	font-family:sans-serif;
+}
+
+p{
+	font-family:sans-serif;
+	letter-spacing:0.1vw;
+}
+
+
+.all_list{
+	height: 100vh;
+	width:10vw;
+	display:flex;
+	flex-direction:column;
+	position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+	background:blue;
+}
+
+.all_list li{
+	font-size:1.5vw;
+	padding:4vw 3vw 2vw 2vw;
+	font-weight:bold;
+}
+
+.textsandcss{
+	width:100vw;
+	display:flex;
+}
+
+.textandjs{
+	display:flex;
+	width:100vw;
+}
+
+.js h1{
+	text-align:center;
+}
+
+.js{
+	margin-top:2vw;
+	margin-left:2vw;
+}
+
+.react{
+	margin-top:2vw;
+	margin-left:2vw;
+}
+
+.react h1{
+	text-align:center;
+	font-family:sans-serif;
+}
+
+form{
+	position:absolute;
+	top:250px;
+	left:400px;
+}
+
+input{
+	margin:1vw;
+	padding:1vw 4vw 1vw 4vw;
+}
+
+label{
+	font-size:1.5vw;
+	font-family:sans-serif;
+	border-radius:1.5vw;
+}
+
+@media only screen and (max-device-width:500px) and (min-width:300px){
+	nav{
+		margin-top:2vw;
+		margin-left:4vw;
+	}
+	.icons{
+		top:120vw;
+		left:120vw;
+	}
+	
+	img{
+		top:49vw;
+		left:60vw;
+		height:200px;
+		width:25vw;
+	}
+	
+	.content{
+		top:110vw;
+		left:12vw;
+	}
+	
+	.menu ul li{
+		font-size:2vw;
+	}
+	
+	.logo h1{
+		font-size:2.5vw;
+	}
+}
+
+.icons{
+	height:40vh;
+	width:5vw;
+}
+
+img{
+	height:70vh;
+	width:40vw;
+}
+
+
+
+
